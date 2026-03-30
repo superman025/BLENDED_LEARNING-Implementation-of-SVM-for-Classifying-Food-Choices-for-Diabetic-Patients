@@ -63,8 +63,8 @@ grid_search = GridSearchCV(svm, param_grid, cv=5, scoring='accuracy')
 grid_search.fit(X_train, y_train)
 
 best_model = grid_search.best_estimator_
-print("Name:DEEPAK B")
-print("Reg. No: 25018314")
+print("Name:SRIJAI V")
+print("Reg. No: 25018437")
 print("Best Parameters:", grid_search.best_params_)
 
 y_pred = best_model.predict(X_test)
@@ -86,7 +86,9 @@ plt.show()
 ## Output:
 
 <img width="1423" height="684" alt="Screenshot 2026-03-09 145313" src="https://github.com/user-attachments/assets/2f7373e6-5b09-42ef-91f8-1682e8520dbc" />
-<img width="1428" height="930" alt="Screenshot 2026-03-09 145334" src="https://github.com/user-attachments/assets/af1f7c42-1a2c-49a1-abbf-fa821eb3ad07" />
+<img width="786" height="394" alt="Screenshot 2026-03-31 003756" src="https://github.com/user-attachments/assets/56c95799-5252-4e63-a4fe-a4caebcd564f" />
+<img width="924" height="677" alt="Screenshot 2026-03-31 003812" src="https://github.com/user-attachments/assets/4d2f7cf4-bcc0-49c0-a6b2-16ecc3f76c02" />
+
 
 
 ## Result:
